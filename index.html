@@ -1,0 +1,59 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <title>jQuery Acessibility</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="">
+  <meta name="author" content="nando rossetto">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="main">
+  <h1>jQuery Acessibility</h1>
+  <hr>
+  <h2>Take a look at this paragraph and enjoy the plugin in action</h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac sapien nec elit lobortis iaculis euismod eu neque. Nam volutpat malesuada arcu, sed 
+    luctus eros lacinia ut. Proin non tellus sed tellus tempor tempus sit amet ac nisl. Integer semper cursus orci, vel luctus mauris scelerisque sed. 
+    Cras orci eros, placerat eu feugiat tincidunt, elementum pulvinar ipsum. Morbi massa metus, ultrices in aliquet sed, egestas non dolor. 
+    Aenean varius mi turpis, in placerat risus. Integer vel nisl vitae ligula ornare egestas vel in arcu.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac sapien nec elit lobortis iaculis euismod eu neque. Nam volutpat malesuada arcu, sed 
+    luctus eros lacinia ut. Proin non tellus sed tellus tempor tempus sit amet ac nisl. Integer semper cursus orci, vel luctus mauris scelerisque sed. 
+    Cras orci eros, placerat eu feugiat tincidunt, elementum pulvinar ipsum. Morbi massa metus, ultrices in aliquet sed, egestas non dolor. 
+    Aenean varius mi turpis, in placerat risus. Integer vel nisl vitae ligula ornare egestas vel in arcu.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac sapien nec elit lobortis iaculis euismod eu neque. Nam volutpat malesuada arcu, sed 
+    luctus eros lacinia ut. Proin non tellus sed tellus tempor tempus sit amet ac nisl. Integer semper cursus orci, vel luctus mauris scelerisque sed. 
+    Cras orci eros, placerat eu feugiat tincidunt, elementum pulvinar ipsum. Morbi massa metus, ultrices in aliquet sed, egestas non dolor. 
+    Aenean varius mi turpis, in placerat risus. Integer vel nisl vitae ligula ornare egestas vel in arcu.
+  </p>
+  
+  <h3>How to use:</h3>
+  <p>First, include the jquery.acessibility.js script inside your page, then:</p>
+  <p>You just call the plugin, like this: <em>$("#container").fontSize();</em> and it works with the default settings!<br></p>
+  <p>If you don,t want to use the custom value, you can change it, just like this: <em>$("#container").fontSize({"minSize" : "5", "maxSize" : "22"});</em></p>
+  
+  <h4>Default options:</h4>
+  <p>                
+    size    : 12 <br>
+    target  : "p"<br>
+    maxSize : 17<br>
+    minSize : 9<br>
+    speed   : 100<br>
+  </p>               
+  
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script src="js/jquery.accessibility.js"></script>
+<script>
+  $(function(){	
+  	$("#main").fontSize({"minSize" : 5, "maxSize" : 22});
+  });
+</script>
+</body>
+</html>
