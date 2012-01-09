@@ -32,7 +32,7 @@ Default options:
 		$(this).prepend("<div id='font-size'><a href='javascript:;;' class='font-bigger'>A+</a> <a href='javascript:;;' class='font-smaller'>A-</a></div>");
 
 		//make a bigger font
-		$(".font-bigger").click(function(){
+		$(".font-bigger").on("click", function(){
 			if(settings.size < settings.maxSize){
 				settings.size += 1;
 				$(settings.target).animate({fontSize: settings.size}, settings.speed);
@@ -40,7 +40,7 @@ Default options:
 		});
 
 		//make a smaller font
-		$(".font-smaller").click(function(){
+		$(".font-smaller").on("click", function(){
 			if(settings.size > settings.minSize){
 				settings.size -= 1;
 				$(settings.target).animate({fontSize: settings.size}, settings.speed);
