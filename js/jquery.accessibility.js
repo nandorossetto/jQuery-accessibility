@@ -1,7 +1,7 @@
 /*
 jQuery Acessibility Plugin
 version: 0.0.1
-@requires jQuery 1.6 or later
+@requires jQuery 1.7 or later
 @homepage https://github.com/nandorossetto/jQuery-accessibility
 
 Licensed under the MIT:
